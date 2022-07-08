@@ -1,0 +1,152 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+  background-color: gray;  
+}
+.colordiv{
+    background-color: #fff;
+    width: 70%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+fieldset{
+margin-left: 110px ;
+margin-top: 50px;
+border: none;
+display: flex;
+
+
+}
+.main{
+   height:700px; 
+   width: 20%;
+   background-color: #8a2be2;
+   color: #fff;
+   padding: 30px;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 10px;
+ font-size: 13px;
+   
+
+}
+.icon{
+    padding-top: 120px;
+    padding-left: 20px;
+}
+span{
+    color:#8a2be2
+}
+.form{
+    padding-top: 50px;
+    padding-left: 160px;
+}
+.sel{
+    border: none;
+}
+.inp{
+    border: none;
+}
+.in{
+    border: 0.2px solid rgba(189, 172, 172, 0.6);
+outline: none;
+    
+    width: 50%;
+    height: 30px;
+    border-radius: 6px;
+}
+.form1{
+    padding-top: 30px;
+    background-color: #fff;
+}
+.input{
+    width: 50%;
+    height: 32px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(189, 172, 172, 0.6);
+    
+    outline: none;
+}
+.input1{
+    width: 50%;
+    height: 100px;
+    border-radius: 6px;
+    border: 0.2px solid rgba(189, 172, 172, 0.6);
+    outline: none;
+}
+.but{
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+    background-color: #8a2be2;
+    border-radius: 6px;
+    border: none;
+    margin-top: 20px;
+}
+.but a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.para{
+    padding-left: 23px;
+}
+
+.design{
+    margin-left: 102px;
+}
+.design1{
+    margin-left:128px ;
+}
+.design2{
+    margin-left:107px ;
+}
+
+@media screen and (max-width:576px) {
+    
+fieldset{
+
+flex-direction: column;
+margin-left: 0;
+
+
+
+
+
+}
+.main{
+    width: 100%;
+}
+.colordiv{
+    width: 100%;
+}
+
+.form{
+    padding-left: 0;
+    font-size: 12px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:820px)
+{
+.main{
+    height: auto;
+    width: 58%;
+}
+
+.form{
+    padding-left: 5px;
+}
+
+fieldset {
+
+    margin-left: 0;
+}
+
+}
